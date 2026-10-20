@@ -2,9 +2,6 @@
 
 Interactive **simulator** for comparing standard autoregressive decoding, fixed-length speculative decoding, and a simplified **adaptive** draft-length policy under configurable cost and acceptance models.
 
-> **SIMULATED RESULTS — NOT REAL GPU BENCHMARKS.**  
-> Cost curves and acceptance parameters are illustrative. This project does not run CUDA kernels or call a real LLM.
-
 ## Research question
 
 **When does adaptive speculative decoding outperform fixed-length speculative decoding, and how does that change with concurrency, draft acceptance probability, and verification cost?**
